@@ -20,7 +20,7 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
            id="custom-inAppBrowser-plugin"
-      version="0.0.1">
+      version="0.0.2">
 
     <name>custom-inAppBrowser-plugin</name>
     <description>Custom InAppBrowser Plugin</description>

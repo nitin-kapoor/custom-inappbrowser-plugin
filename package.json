@@ -10,9 +10,9 @@
     "raw": "custom-inAppBrowser-plugin@0.0.1",
     "name": "custom-inAppBrowser-plugin",
     "escapedName": "cordova-plugin-inappbrowser",
-    "rawSpec": "0.0.1",
+    "rawSpec": "0.0.2",
     "saveSpec": null,
-    "fetchSpec": "0.0.1"
+    "fetchSpec": "0.0.2"
   },
   "_requiredBy": [
     "#USER",
@@ -93,7 +93,7 @@
     "test": "npm run eslint"
   },
   "types": "./types/index.d.ts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "directories": {
     "doc": "doc",

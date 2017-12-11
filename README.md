@@ -1,5 +1,5 @@
 ---
-title: Inappbrowser
+title: Inappbrowser with custom functionality
 description: Open an in-app browser window.
 ---
 <!--
@@ -379,5 +379,8 @@ The function is passed an `InAppBrowserEvent` object.
     ref.addEventListener('loadstop', function() {
         ref.insertCSS({file: "mystyles.css"});
     });
-__
+
+## Un-Install
+
+    cordova plugin remove custom-inAppBrowser-plugin
 
