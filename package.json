@@ -63,7 +63,7 @@
       }
     }
   },
-  "homepage": "https://github.com/apache/NBCU-plugin-inappbrowser#readme",
+  "homepage": "https://github.com/apache/custom-inAppBrowser-plugin#readme",
   "keywords": [
     "cordova",
     "in",
@@ -83,10 +83,10 @@
     "cordova-firefoxos"
   ],
   "license": "Apache-2.0",
-  "name": "nbcu-plugin-inappbrowser",
+  "name": "custom-inAppBrowser-plugin",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/apache/NBCU-plugin-inappbrowser.git"
+    "url": "git+https://github.com/nitin-kapoor/custom-inAppBrowser-plugin.git"
   },
   "scripts": {
     "eslint": "node node_modules/eslint/bin/eslint www && node node_modules/eslint/bin/eslint src && node node_modules/eslint/bin/eslint tests",
