@@ -83,7 +83,7 @@
     "cordova-firefoxos"
   ],
   "license": "Apache-2.0",
-  "name": "custom-inAppBrowser-plugin",
+  "name": "custom-inappbrowser-plugin",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nitin-kapoor/custom-inAppBrowser-plugin.git"
