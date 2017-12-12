@@ -2,23 +2,23 @@
   "_from": "cordova-plugin-inappbrowser@0.0.1",
   "_inBundle": false,
   "_integrity": "sha1-ZHY0lb6H6y562xoI8CCblupc7uA=",
-  "_location": "/custom-inAppBrowser-plugin",
+  "_location": "/custom-inappbrowser-plugin",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "custom-inAppBrowser-plugin@0.0.1",
-    "name": "custom-inAppBrowser-plugin",
+    "raw": "custom-inappbrowser-plugin@0.0.1",
+    "name": "custom-inappbrowser-plugin",
     "escapedName": "cordova-plugin-inappbrowser",
-    "rawSpec": "0.0.2",
+    "rawSpec": "0.0.3",
     "saveSpec": null,
-    "fetchSpec": "0.0.2"
+    "fetchSpec": "0.0.3"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/cordova-plugin-inappbrowser/-/custom-inAppBrowser-plugin-0.0.1.tgz",
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-inappbrowser/-/custom-inappbrowser-plugin-0.0.1.tgz",
   "_shasum": "64763495be87eb2e7adb1a08f0209b96ea5ceee0",
   "_spec": "cordova-plugin-inappbrowser@0.0.1",
   "_where": "D:\\Users\\pankaj_ku\\APP\\RnD\\npm\\New folder\\DemoProj\\node_modules",
@@ -63,7 +63,7 @@
       }
     }
   },
-  "homepage": "https://github.com/apache/custom-inAppBrowser-plugin#readme",
+  "homepage": "https://github.com/nitin-kapoor/custom-inAppBrowser-plugin#readme",
   "keywords": [
     "cordova",
     "in",
@@ -93,7 +93,7 @@
     "test": "npm run eslint"
   },
   "types": "./types/index.d.ts",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "directories": {
     "doc": "doc",

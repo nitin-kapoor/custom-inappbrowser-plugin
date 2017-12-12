@@ -19,10 +19,10 @@
 -->
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-           id="custom-inAppBrowser-plugin"
-      version="0.0.2">
+           id="custom-inappbrowser-plugin"
+      version="0.0.3">
 
-    <name>custom-inAppBrowser-plugin</name>
+    <name>custom-inappbrowser-plugin</name>
     <description>Custom InAppBrowser Plugin</description>
     <license>Apache 2.0</license>
     <keywords>custom,in,app,browser,inappbrowser,custominappbrowser,custominAppBrowser</keywords>

@@ -20,10 +20,22 @@ description: Open an in-app browser window.
 #         specific language governing permissions and limitations
 #         under the License.
 -->
+### NOTE : This plugin provides customization currently for iOS and Android platform only.
+
+### Features:
+
+#### iOS:
+- Removed __'DONE'__ button and it's functionality from the footer bar left corner.
+- Added loading spinner in footer bar left corner.
+- Changed color of footer bar.
+
+#### Android:
+
+- Removed address bar.
 
 This plugin provides a web browser view that displays when calling `cordova.InAppBrowser.open()`.
 
-    var ref = cordova.InAppBrowser.open('http://apache.org', '_blank', 'location=yes');
+    var ref = cordova.InAppBrowser.open('http://google.com', '_blank', 'location=yes');
 
 The `cordova.InAppBrowser.open()` function is defined to be a drop-in replacement
 for the `window.open()` function.  Existing `window.open()` calls can use the
@@ -103,7 +115,7 @@ instance, or the system browser.
     - __hardwareback__: set to `yes` to use the hardware back button to navigate backwards through the `InAppBrowser`'s history. If there is no previous page, the `InAppBrowser` will close.  The default value is `yes`, so you must set it to `no` if you want the back button to simply close the InAppBrowser.
     - __zoom__: set to `yes` to show Android browser's zoom controls, set to `no` to hide them.  Default value is `yes`.
     - __mediaPlaybackRequiresUserAction__: Set to `yes` to prevent HTML5 audio or video from autoplaying (defaults to `no`).
-    - __shouldPauseOnSuspend__: Set to `yes` to make InAppBrowser WebView to pause/resume with the app to stop background audio (this may be required to avoid Google Play issues like described in [CB-11013](https://issues.apache.org/jira/browse/CB-11013)).
+    - __shouldPauseOnSuspend__: Set to `yes` to make InAppBrowser WebView to pause/resume with the app to stop background audio.
     - __useWideViewPort__: Sets whether the WebView should enable support for the "viewport" HTML meta tag or should use a wide viewport. When the value of the setting is `no`, the layout width is always set to the width of the WebView control in device-independent (CSS) pixels. When the value is `yes` and the page contains the viewport meta tag, the value of the width specified in the tag is used. If the page does not contain the tag or does not provide a width, then a wide viewport will be used. (defaults to `yes`).
 
     iOS supports these additional options:
@@ -131,14 +143,14 @@ instance, or the system browser.
 
 
 ### Supported Platforms
-### This plugin provides customization currently for iOS and Android platform only. 
+### NOTE : This plugin provides customization currently for iOS and Android platform only. 
 
 - Android
 - iOS
 
 ### Example
 
-    var ref = cordova.InAppBrowser.open('http://apache.org', '_blank', 'location=yes');
+    var ref = cordova.InAppBrowser.open('http://google.com', '_blank', 'location=yes');
    
 ## InAppBrowser
 
@@ -263,7 +275,7 @@ function executeScriptCallBack(params) {
 
 ### Quick Example
 
-    var ref = cordova.InAppBrowser.open('http://apache.org', '_blank', 'location=yes');
+    var ref = cordova.InAppBrowser.open('http://google.com', '_blank', 'location=yes');
     ref.addEventListener('loadstart', function(event) { alert(event.url); });
 
 ## InAppBrowser.removeEventListener
@@ -291,7 +303,7 @@ The function is passed an `InAppBrowserEvent` object.
 
 ### Quick Example
 
-    var ref = cordova.InAppBrowser.open('http://apache.org', '_blank', 'location=yes');
+    var ref = cordova.InAppBrowser.open('http://google.com', '_blank', 'location=yes');
     var myCallback = function(event) { alert(event.url); }
     ref.addEventListener('loadstart', myCallback);
     ref.removeEventListener('loadstart', myCallback);
@@ -311,7 +323,7 @@ The function is passed an `InAppBrowserEvent` object.
 
 ### Quick Example
 
-    var ref = cordova.InAppBrowser.open('http://apache.org', '_blank', 'location=yes');
+    var ref = cordova.InAppBrowser.open('http://google.com', '_blank', 'location=yes');
     ref.close();
 
 ## InAppBrowser.show
@@ -330,7 +342,7 @@ The function is passed an `InAppBrowserEvent` object.
 
 ### Quick Example
 
-    var ref = cordova.InAppBrowser.open('http://apache.org', '_blank', 'hidden=yes');
+    var ref = cordova.InAppBrowser.open('http://google.com', '_blank', 'hidden=yes');
     // some time later...
     ref.show();
 
@@ -349,7 +361,7 @@ The function is passed an `InAppBrowserEvent` object.
 
 ### Quick Example
 
-    var ref = cordova.InAppBrowser.open('http://apache.org', '_blank');
+    var ref = cordova.InAppBrowser.open('http://google.com', '_blank');
     // some time later...
     ref.hide();
 
@@ -375,7 +387,7 @@ The function is passed an `InAppBrowserEvent` object.
 
 ### Quick Example
 
-    var ref = cordova.InAppBrowser.open('http://apache.org', '_blank', 'location=yes');
+    var ref = cordova.InAppBrowser.open('http://google.com', '_blank', 'location=yes');
     ref.addEventListener('loadstop', function() {
         ref.insertCSS({file: "mystyles.css"});
     });
