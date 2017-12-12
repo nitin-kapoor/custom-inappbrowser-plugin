@@ -10,9 +10,9 @@
     "raw": "custom-inappbrowser-plugin@0.0.1",
     "name": "custom-inappbrowser-plugin",
     "escapedName": "cordova-plugin-inappbrowser",
-    "rawSpec": "0.0.3",
+    "rawSpec": "0.0.4",
     "saveSpec": null,
-    "fetchSpec": "0.0.3"
+    "fetchSpec": "0.0.4"
   },
   "_requiredBy": [
     "#USER",
@@ -63,13 +63,16 @@
       }
     }
   },
-  "homepage": "https://github.com/nitin-kapoor/custom-inAppBrowser-plugin#readme",
+  "homepage": "https://github.com/nitin-kapoor/custom-inappbrowser-plugin#readme",
   "keywords": [
     "cordova",
     "in",
     "app",
     "browser",
     "inappbrowser",
+    "inAppBrowser",
+    "custom",
+    "custom-inappbrowser-plugin",
     "ecosystem:cordova",
     "cordova-android",
     "cordova-amazon-fireos",
@@ -86,14 +89,14 @@
   "name": "custom-inappbrowser-plugin",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nitin-kapoor/custom-inAppBrowser-plugin.git"
+    "url": "git+https://github.com/nitin-kapoor/custom-inappbrowser-plugin.git"
   },
   "scripts": {
     "eslint": "node node_modules/eslint/bin/eslint www && node node_modules/eslint/bin/eslint src && node node_modules/eslint/bin/eslint tests",
     "test": "npm run eslint"
   },
   "types": "./types/index.d.ts",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "index.js",
   "directories": {
     "doc": "doc",
