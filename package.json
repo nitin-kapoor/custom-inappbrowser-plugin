@@ -10,9 +10,9 @@
     "raw": "custom-inappbrowser-plugin@0.0.1",
     "name": "custom-inappbrowser-plugin",
     "escapedName": "cordova-plugin-inappbrowser",
-    "rawSpec": "0.0.4",
+    "rawSpec": "0.0.5",
     "saveSpec": null,
-    "fetchSpec": "0.0.4"
+    "fetchSpec": "0.0.5"
   },
   "_requiredBy": [
     "#USER",
@@ -43,7 +43,7 @@
     ]
   },
   "deprecated": false,
-  "description": "Cordova InAppBrowser Plugin",
+  "description": "Custom Inappbrowser plugin which helps to to load third-party (untrusted) content, instead of loading that into the main Cordova webview. This custom inappbrowser plugin provide customization currently for iOS and Android platform only. For iOS platform, removed 'DONE' button or close button and it's functionality from the footer bar left corner, added loading spinner in footer bar left corner, changed color of footer bar. For Android platform removed URL address bar.",
   "devDependencies": {
     "eslint": "^4.0.0",
     "eslint-config-semistandard": "^11.0.0",
@@ -96,7 +96,7 @@
     "test": "npm run eslint"
   },
   "types": "./types/index.d.ts",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "index.js",
   "directories": {
     "doc": "doc",

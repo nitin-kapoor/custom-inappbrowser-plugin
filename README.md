@@ -31,7 +31,7 @@ description: Open an in-app browser window.
 
 #### Android:
 
-- Removed address bar.
+- Removed URL address bar.
 
 This plugin provides a web browser view that displays when calling `cordova.InAppBrowser.open()`.
 
