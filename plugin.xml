@@ -20,10 +20,10 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
            id="custom-inappbrowser-plugin"
-      version="0.0.5">
+      version="0.0.6">
 
     <name>custom-inappbrowser-plugin</name>
-    <description>Custom InAppBrowser Plugin</description>
+    <description>Custom InAppBrowser Plugin. For iOS platform, removed DONE button or close button and it's functionality from the footer bar left corner, added loading spinner in footer bar left corner, changed color of footer bar. For Android platform removed URL address bar from top bar</description>
     <license>Apache 2.0</license>
     <keywords>custom,in,app,browser,inappbrowser,inAppBrowser,custominappbrowser,customInAppBrowser</keywords>
     <repo>https://github.com/nitin-kapoor/custom-inappbrowser-plugin.git</repo>

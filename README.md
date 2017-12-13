@@ -20,7 +20,7 @@ description: Open an in-app browser window. For iOS platform, removed DONE butto
 #         specific language governing permissions and limitations
 #         under the License.
 -->
-### NOTE : This plugin provides customization currently for iOS and Android platform only.
+> ### NOTE : This plugin provides customization currently for iOS and Android platform only.
 
 ### Features:
 
