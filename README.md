@@ -1,6 +1,6 @@
 ---
-title: Inappbrowser with custom functionality
-description: Open an in-app browser window.
+title: Custom Inappbrowser plugin with custom functionality
+description: Open an in-app browser window. For iOS platform, removed DONE button or close button and it's functionality from the footer bar left corner, added loading spinner in footer bar left corner, changed color of footer bar. For Android platform removed URL address bar from top bar.
 ---
 <!--
 # license: Licensed to the Apache Software Foundation (ASF) under one
