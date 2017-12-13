@@ -10,9 +10,9 @@
     "raw": "custom-inappbrowser-plugin@0.0.1",
     "name": "custom-inappbrowser-plugin",
     "escapedName": "cordova-plugin-inappbrowser",
-    "rawSpec": "0.0.6",
+    "rawSpec": "0.0.7",
     "saveSpec": null,
-    "fetchSpec": "0.0.6"
+    "fetchSpec": "0.0.7"
   },
   "_requiredBy": [
     "#USER",
@@ -22,9 +22,9 @@
   "_shasum": "64763495be87eb2e7adb1a08f0209b96ea5ceee0",
   "_spec": "cordova-plugin-inappbrowser@0.0.1",
   "_where": "D:\\Users\\pankaj_ku\\APP\\RnD\\npm\\New folder\\DemoProj\\node_modules",
-  "author": "Apache Software Foundation",
+  "author": "nitin-kapoor",
   "bugs": {
-    "url": "https://issues.apache.org/jira/browse/CB"
+    "url": "https://github.com/nitin-kapoor/custom-inappbrowser-plugin/issues"
   },
   "bundleDependencies": false,
   "cordova": {
@@ -96,7 +96,7 @@
     "test": "npm run eslint"
   },
   "types": "./types/index.d.ts",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "main": "index.js",
   "directories": {
     "doc": "doc",
